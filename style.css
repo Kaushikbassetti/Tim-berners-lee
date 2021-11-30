@@ -1,0 +1,82 @@
+body
+{
+    text-align:center;
+    margin:0;
+    padding-top:800px;
+}
+.profile
+{
+    border-radius: 50%;
+}
+#welcome
+{
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(#0e77cc 0%,#10e8e8 100%);
+    display: table;
+    width: 100%;
+    height:100%;
+}
+h1
+{
+    font-size:40px;
+    font-family: Algerian;
+    font-weight: 300;
+}
+#name
+{
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bio
+{
+    font-family: 'Comforter Brush', cursive;
+    font-size:20px;
+    padding:50px;
+}
+.line
+{
+    height:6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+.menu
+{
+    position:fixed;
+    background: white;
+    width: 100%;
+    top:0px;
+    margin-top: 0px;
+    z-index: 10;
+}
+.links
+{
+   font-family:Algerian ;
+   font-size:20px ;  
+   padding-left: 33px;
+   padding-right: 25px;
+   display: inline;
+}
+.links:hover
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a
+{
+    text-decoration: none;
+}
+#WRITINGS a
+{
+    text-decoration: underline !important;
+    color:blue !important;
+}
+#CONTACT iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
